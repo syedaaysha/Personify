@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Product</title>
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+  <!-- Emarsys_css -->
+  <link rel='stylesheet' href='https://redirector.eservice.emarsys.net/ui/latest/css/app.css'>
+  <!-- Custom_Css -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+
+<div class="e-topnav">
+  <div class="e-topnav__container">
+   <div class="e-col-medium-12 e-col-small-12">
+    <div class="e-topnav__logo e-topnav__logo-b2c custom_logo">
+       <img src="img/logo.png">
+    </div>
+    <input class="e-topnav__mobilemenu" id="e-topnav__mobilemenu" type="checkbox">
+    <nav class="e-menu">
+      <ul class="e-menu__list">
+        <li class="e-menu__item">
+          <a class="e-menu__name" href="index.html">
+            Home
+          </a>
+        </li>
+        <li class="e-menu__item">
+          <a class="e-menu__name" href="overview.html">
+            Overview
+          </a>
+        </li>
+        <li class="e-menu__item">
+          <a class="e-menu__name" href="mission.html">
+            Mission
+          </a>
+        </li>
+        <li class="e-menu__item e-menu__item-active">
+          <a class="e-menu__name" href="products.html">
+            Product
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <label class="e-hamburger" for="e-topnav__mobilemenu">
+      <span class="e-hamburger__line"></span>
+    </label>
+    <div class="e-iconmenu">
+      <div class="e-iconmenu__item">
+        <e-dropdown data-markup-class="e-btn e-btn-customerinfo e-btn-dropdown" data-markup-content="Admin">
+          <div class="e-dropdown__content">
+            <div class="e-iconmenu__profile">
+              <div class="e-iconmenu__profile__header">
+                <h3>
+                  <a href="#0">
+                    Admin
+                  </a>
+                </h3>
+                <div class="e-iconmenu__profile__time">
+                  <span>
+                    Tuesday, November 17 12:54 (GMT+1:00)
+                  </span>
+                </div>
+              </div>
+              <a class="e-dropdown__item" href="#0">
+                <e-icon icon="e-profile" type="table"></e-icon>
+                 My Profile
+              </a>
+              <a class="e-dropdown__item" href="#0">
+                <e-icon icon="e-signout" type="table"></e-icon>
+                 Log Out
+              </a>
+            </div>
+          </div>
+        </e-dropdown>
+      </div>
+      <div class="e-iconmenu__item">
+        <e-dropdown data-markup-class="e-iconmenu__name" data-markup-content="&lt;svg class='e-icon e-icon-search'&gt;&lt;use xlink:href='#search'&gt;&lt;/use&gt;&lt;/svg&gt;">
+          <div class="e-dropdown__content">
+            <div class="e-search">
+              <h3>
+                <label for="js-function-search-query">
+                  Search
+                </label>
+              </h3>
+              <form method="get" name="workformsearch">
+                <div class="e-field">
+                  <select class="e-select" name="subject">
+                    <option value="1//1">
+                      in contacts by first name
+                    </option>
+                    <option value="1//2">
+                      in contacts by last name
+                    </option>
+                    <option value="1//3">
+                      in contacts by email
+                    </option>
+                    <option value="2">
+                      in email campaigns
+                    </option>
+                    <option value="3">
+                      in registration forms
+                    </option>
+                    <option value="4">
+                      in segments
+                    </option>
+                    <option value="5">
+                      in lists
+                    </option>
+                    <option value="6">
+                      in bounces
+                    </option>
+                    <option value="7">
+                      in email analysis
+                    </option>
+                  </select>
+                </div>
+                <div class="e-field">
+                  <input class="e-input" type="text" name="needle" placeholder="Search for..." value autofocus>
+                </div>
+                <button class="e-btn e-btn-primary" type="submit" title="Search">
+                  <e-icon icon="search" color="white"></e-icon>
+                  Search
+                </button>
+              </form>
+            </div>
+          </div>
+        </e-dropdown>
+      </div>
+      <div class="e-iconmenu__item">
+        <div class="e-iconmenu__name">
+          <span class="active" id="notification-center-badge">
+            <e-icon icon="bell"></e-icon>
+          </span>
+          <div class="active" id="notification-center-badge-status">
+            6
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!-- navbar_end -->
+<!-- product_start -->
+<div class="e-container">
+    <div class="e-col-12">
+      <div class="main_body">
+        <div class="e-row text-align-center">
+          <div class="e-col-12 search_text">
+            <h1>Search Items</h1>
+            <h3>Please enter the code for the item that you want to view (it must match exactly)</h3>
+          </div>
+        </div>
+        <div class="e-row text-align-center">
+          <div class="e-col-12 search_field">
+            <div class="e-field">
+            <div class="e-col-1 text-align-right">
+              <a href=""><e-icon icon="search"></e-icon></a>
+            </div>
+             <div class="e-col-11">
+               <input class="e-input" id="input2" type="text" placeholder="test" value="
+        Enter Item Code">
+             </div>     
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+<!-- product_end -->
+
+  <script src='https://redirector.eservice.emarsys.net/ui/latest/js/app.js'></script>
+  <script src='js/script.js'></script>
+</body>
+</html>

@@ -1,0 +1,157 @@
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+/*navbar_start*/
+.e-topnav__logo{
+    line-height: 35px;
+    margin: 0 30px 0 15px;
+}
+.custom_logo img{
+	margin-top: 12px;
+}
+
+@media (max-width: 1279px){
+.e-topnav__logo {
+    width: 120px;
+    margin-top: 5px; 
+}
+}
+/*navbar_end*/
+
+/*main_body_start*/
+.main_body{
+	background-color: #FAFAFA;
+	border-radius: 3px;
+	padding: 20px 30px 40px 30px;
+	margin: 15px 0px;
+	box-shadow: 1px 1px 1px 2px #ddd;
+}
+/*main_body_end*/
+
+/*home_start*/
+.custom_card{
+	background-color: #ffffff;
+	border:1px solid #eee;
+	box-shadow: 0px 0px 3px 1px #eee;
+	text-align: center; 
+	padding: 30px 30px 15px 30px;
+	margin-bottom: 15px;
+}
+.custom_card img{
+	margin: 5px 0px 20px 0px;
+}
+.custom_card h2{
+	
+}
+.custom_card p{
+	font-size: 15px;
+	margin-bottom: 26px;
+}
+.custom_card hr{
+	margin: 12px 0px;
+}
+.custom_card a{
+	font-size: 20px;
+	text-transform: uppercase;
+}
+/*home_end*/
+
+/*overview_start*/
+.common_box{
+	background-color: #ffffff;
+	border:1px solid #eee;
+	border-radius: 3px;
+	margin-bottom: 22px;
+}
+.common_heading{
+	background-color: #ddd;
+	border:1px solid #ccc;
+	padding: 5px 15px;
+	font-size: 18px;
+	border-radius: 2px 2px 0px 0px;
+}
+.e-field{
+	padding-left: 12px;
+	margin-bottom: 5px;
+}
+.e-label{
+	margin-bottom: 5px;
+}
+.customPadding{
+	padding: 18px 12px;
+}
+.e-table{
+	font-size: 15px;
+}
+/*overview_end*/
+
+/*mission_start*/
+.mission .e-table{
+	font-size: 20px;
+}
+.mission a{
+	padding: 12px;
+}
+.mission_heading {
+	font-size: 22px;
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 30px;
+}
+/*mission_end*/
+
+/*men_cloth_start*/
+.product_table{
+
+}
+.product_table .e-legend__value {
+    font-size: 20px;
+    line-height: 1;
+    padding: 14px 10px;
+}
+.product_table a{
+	font-size: 16px;
+}
+.product_table h4{
+	font-weight: normal;
+	margin: 0px;
+}
+.similarmission .e-ringchart, .associatemission .e-ringchart{
+	padding: 0px 10px;
+}
+.similarmission .e-ringchart__legend, .associatemission .e-ringchart__legend{
+	padding-left: 45px;
+}
+.rateandshare h1{
+	font-size: 40px;
+    margin: 22px 0px;
+}
+/*men_cloth_end*/
+
+/*product_start*/
+.search_text{
+ padding: 30px 20px 10px 20px;
+}
+.search_text h1{
+ font-size: 40px;
+}
+.search_text h3{
+ font-size: 18px;
+}
+.search_field{
+	padding: 50px 150px 50px 100px;
+}
+.search_field a{
+	margin: -8px;
+}
+.search_field .e-input {
+    border: none;
+    border-bottom: 1px solid #c8ceca;
+    background: transparent;
+    padding: 0; 
+    font-size: 15px;
+}
+/*product_end*/
+.mission_key a{
+	font-size: 25px;
+}
